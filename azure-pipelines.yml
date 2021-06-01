@@ -1,0 +1,11 @@
+# Starter pipeline
+
+trigger:
+- main
+
+pool:
+  vmImage: 'SelfHostedUbuntuBuildAgent'
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
